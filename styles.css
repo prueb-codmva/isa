@@ -1,0 +1,52 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: 'Georgia', serif;
+  background-color: #fff0f5; /* rosa claro */
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  background-color: #ffe4e1;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+header p{
+    font-family: cursive;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px;
+  padding: 20px;
+  background-color: #fffafa;
+  border-radius: 10px;
+  transition: all 1s ease;
+}
+
+section:hover{
+   transform: scale(1.05)
+}
+
+section img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+  background-color: #ffc0cb;
+  padding: 20px;
+  font-size: 1.5em;
+  font-family: cursive;
+}
